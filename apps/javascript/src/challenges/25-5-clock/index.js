@@ -8,6 +8,8 @@ const playButton = document.querySelector('#play');
 const resetButton = document.querySelector('#reset');
 const timerHeader = document.querySelector('.timer-header');
 const beep = document.querySelector('#beep');
+const timerContainer = document.querySelector('.timer-container');
+timerContainer.style.display = 'flex';
 const playIcon = document.querySelector('#playicon');
 
 class Timer {
